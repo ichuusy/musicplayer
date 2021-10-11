@@ -143,7 +143,7 @@ def Music():
                 elif (windowManager.x/2)-120 <= mouse[0] <= (windowManager.x/2)-20 and (windowManager.y/2)+100 <= mouse[1] <= (windowManager.y/2)+130:
                     pygame.mixer.music.stop()
                 elif (windowManager.x/2)+20 <= mouse[0] <= (windowManager.x/2)+120 and (windowManager.y/2)+100 <= mouse[1] <= (windowManager.y/2)+130:
-                    webbrowser.open_new("https://github.com/horisee")
+                    webbrowser.open_new("https://github.com/ichuusy")
                 
             if pygame.mixer.music.get_busy() == False:
                 if len(windowManager.songs) >= 1:
